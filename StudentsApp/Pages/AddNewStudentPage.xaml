@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentsApp.Pages.AddNewStudentPage"
+             Title="Add New Student">
+    <ContentPage.Content>
+        <ScrollView>
+            <VerticalStackLayout Margin="10" Spacing="15">
+                <Label Text="First Name" FontSize="13"/>
+                <Entry Text="{Binding StudentDetails.FirstName}" Keyboard="Text" FontSize="13"/>
+
+               <Label Text="Middle Name" FontSize="13"/>
+                <Entry Text="{Binding StudentDetails.MiddleName}" Keyboard="Text" FontSize="13"/>
+
+               <Label Text="Last Name" FontSize="13"/>
+                <Entry Text="{Binding StudentDetails.LastName}" Keyboard="Text" FontSize="13"/>
+
+                <Label Text="Phone Number" FontSize="13"/>
+                <Entry Text="{Binding StudentDetails.PhoneNumber}" Keyboard="Text" FontSize="13"/>
+
+                <Label Text="Address" FontSize="13"/>
+                <Entry Text="{Binding StudentDetails.Address}" Keyboard="Text" FontSize="13"/>
+
+                <Label Text="EmailAddress" FontSize="13"/>
+                <Entry Text="{Binding StudentDetails.EmailAddress}" Keyboard="Text" FontSize="13"/>
+
+                <Label Text="Gender" FontSize="13"/>
+                <Entry Text="{Binding StudentDetails.Gender}" Keyboard="Text" FontSize="13"/>
+
+                <Label Text="Country" FontSize="13"/>
+                <Entry Text="{Binding StudentDetails.Country}" Keyboard="Text" FontSize="13"/>
+
+                <Label Text="City" FontSize="13"/>
+                <Entry Text="{Binding StudentDetails.City}" Keyboard="Text" FontSize="13"/>
+
+                <ActivityIndicator IsEnabled="{Binding IsRunning}" IsRunning="{Binding IsRunning}"  IsVisible="{Binding IsRunning}" Height="40"/>
+                <Button Text="Save Student" FontSize="13" Command="{Binding AddStudentCommand}"  BackgroundColor="BlueViolet"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

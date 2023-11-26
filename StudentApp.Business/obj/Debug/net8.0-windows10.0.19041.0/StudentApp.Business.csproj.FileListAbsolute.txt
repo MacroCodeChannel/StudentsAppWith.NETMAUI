@@ -1,0 +1,12 @@
+D:\Content Creation\StudentsApp\StudentApp.Business\bin\Debug\net8.0-windows10.0.19041.0\StudentApp.Business.deps.json
+D:\Content Creation\StudentsApp\StudentApp.Business\bin\Debug\net8.0-windows10.0.19041.0\StudentApp.Business.dll
+D:\Content Creation\StudentsApp\StudentApp.Business\bin\Debug\net8.0-windows10.0.19041.0\StudentApp.Business.pdb
+D:\Content Creation\StudentsApp\StudentApp.Business\obj\Debug\net8.0-windows10.0.19041.0\StudentApp.Business.csproj.AssemblyReference.cache
+D:\Content Creation\StudentsApp\StudentApp.Business\obj\Debug\net8.0-windows10.0.19041.0\StudentApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Content Creation\StudentsApp\StudentApp.Business\obj\Debug\net8.0-windows10.0.19041.0\StudentApp.Business.AssemblyInfoInputs.cache
+D:\Content Creation\StudentsApp\StudentApp.Business\obj\Debug\net8.0-windows10.0.19041.0\StudentApp.Business.AssemblyInfo.cs
+D:\Content Creation\StudentsApp\StudentApp.Business\obj\Debug\net8.0-windows10.0.19041.0\StudentApp.Business.csproj.CoreCompileInputs.cache
+D:\Content Creation\StudentsApp\StudentApp.Business\obj\Debug\net8.0-windows10.0.19041.0\StudentApp.Business.dll
+D:\Content Creation\StudentsApp\StudentApp.Business\obj\Debug\net8.0-windows10.0.19041.0\refint\StudentApp.Business.dll
+D:\Content Creation\StudentsApp\StudentApp.Business\obj\Debug\net8.0-windows10.0.19041.0\StudentApp.Business.pdb
+D:\Content Creation\StudentsApp\StudentApp.Business\obj\Debug\net8.0-windows10.0.19041.0\ref\StudentApp.Business.dll

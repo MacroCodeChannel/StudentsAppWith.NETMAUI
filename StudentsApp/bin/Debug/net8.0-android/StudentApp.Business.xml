@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentApp.Business</name>
+    </assembly>
+    <members>
+        <member name="T:StudentApp.Business.ViewModels.AddNewStudentPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:StudentApp.Business.ViewModels.AddNewStudentPageViewModel.IsRunning">
+            <inheritdoc cref="F:StudentApp.Business.ViewModels.AddNewStudentPageViewModel.isRunning"/>
+        </member>
+        <member name="F:StudentApp.Business.ViewModels.AddNewStudentPageViewModel.addStudentCommand">
+            <summary>The backing field for <see cref="P:StudentApp.Business.ViewModels.AddNewStudentPageViewModel.AddStudentCommand"/>.</summary>
+        </member>
+        <member name="P:StudentApp.Business.ViewModels.AddNewStudentPageViewModel.AddStudentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:StudentApp.Business.ViewModels.AddNewStudentPageViewModel.AddStudent"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRunning">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRunning" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRunning">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRunning" generated properties.</summary>
+        </member>
+    </members>
+</doc>

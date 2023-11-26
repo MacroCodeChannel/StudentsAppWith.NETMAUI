@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="StudentsApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:StudentsApp.Pages"
+    xmlns:local="clr-namespace:StudentsApp"
+    FlyoutBackgroundColor="LightSalmon"
+    TitleColor="Indigo"
+    TabBarBackgroundColor="DodgerBlue"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Students Mobile App">
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid
+                x:Name="Header"
+                Margin="0"
+                Padding="20"
+                BackgroundColor="DarkSlateGrey">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Image
+                    x:Name="Logo"
+                    Grid.Row="0"
+                    Margin="0"
+                    Source="dotnet_bot.svg"/>
+                <Label
+                    x:Name="AppName"
+                    Grid.Row="1"
+                    Margin="0"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="End"
+                    Text="Macro Code App"
+                    TextColor="Orange"/>
+
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <FlyoutItem
+        x:Name="Home"
+        Icon="home.png"
+        Title="Home">
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </FlyoutItem>
+
+    <FlyoutItem
+        x:Name="Students"
+        Icon="list.png"
+        Title="Students List">
+        <ShellContent
+            Title="Students"
+            ContentTemplate="{DataTemplate pages:StudentsListPage}"
+            Route="StudentsListPage" />
+    </FlyoutItem>
+
+    <FlyoutItem
+        x:Name="AddStudents"
+        Icon="list.png"
+        Title="Add Student">
+        <ShellContent
+            Title="AddStudent"
+            ContentTemplate="{DataTemplate pages:AddNewStudentPage}"
+            Route="AddNewStudentPage" />
+    </FlyoutItem>
+
+
+</Shell>
